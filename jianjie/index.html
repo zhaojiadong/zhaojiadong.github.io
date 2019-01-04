@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>赵某人的个人简介</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />	
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+</head>
+<body>
+	<div id="ding"></div>
+	<div class="top">
+		<div class="top-top">
+			<div class="top-top1">
+				<ul>
+					<li><a href="#ding" style="color: #fff" class="op">首页</a></li>
+					<li class="lo"><a href="#sh">生活</a></li>
+					<li><a href="#js">技术</a></li>
+					<li><a href="#zp">作品</a></li>
+					<li><a href="#lx">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="introduce">
+		<div class="introduce-top">
+			<div class="tu"><img src="images/toux.jpg" alt=""></div>
+		</div>
+		<div class="introduce-zhong">
+			<p>我是赵某人，一名计算机爱好者</p>
+			<p>爱生活，爱技术,爱作品。</p>
+		</div>
+	</div><div id="sh"></div>
+	<!-- 爱生活 -->
+	<div class="shenghuo">爱生活</div>
+	<div class="ai">
+		<div class="swiper-container">
+    		<div class="swiper-wrapper">
+        		<div class="swiper-slide"><img src="images/tu1.jpg" alt=""></div>
+        		<div class="swiper-slide"><img src="images/tu2.jpg" alt=""></div>
+        		<div class="swiper-slide"><img src="images/tu3.jpg" alt=""></div>
+    		</div>
+    	<!-- 如果需要分页器 -->
+    	<div class="swiper-pagination"></div>
+    	
+    	<!-- 如果需要导航按钮 -->
+    	<div class="swiper-button-prev"></div>
+    	<div class="swiper-button-next"><
+		</div>
+	</div><div id="js"></div>
+	</div>
+	<!-- 爱技术 -->
+	<div class="jisu">爱技术</div>
+	<div class="aijisu">
+		<div><p>div+HTML+CSS是作为初学者的我最先掌握的技术</p></div>
+		<div><p>javascript是前端必要掌握的技术，目前正在不断学习中</p></div>
+		<div><p>其他的就并不熟悉，就不说了</p></div><div id="zp"></div>
+	</div>
+	<!-- 爱作品 -->
+	<div class="zuo">爱作品</div>
+	<div class="zuopin">
+		<div class="img"><a href="images/j.png"><img src="images/j.png" alt=""></a></div>
+		<div class="img"><a href="images/m.png"><img src="images/m.png" alt=""></a></div>
+		<div class="img"><a href="images/y.png"><img src="images/y.png" alt=""></a></div>
+
+	</div>
+	<div id="lx"></div>
+	<!-- 联系我们 -->
+	<div class="lianxi">联系我们</div>
+	<div class="xi">
+		<p>手机号码：13715882422</p>
+		<p>QQ：2996088045</p>
+		<p>邮箱：2996088045@qq.com</p>
+		<p><img src="images/wx.jpg" alt=""></p>
+	</div>
+	<div class="ding"><a href="#ding">顶部</a></div>
+	<div class="kb"></div>
+	<script src="dist/js/swiper.min.js"></script>
+	<script>
+		$(document).ready(function () {
+		 	...
+		})
+
+</script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    // pagination: {
+    //   el: '.swiper-pagination',
+    // },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>
+</body>
+</html>

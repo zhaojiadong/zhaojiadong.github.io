@@ -1,0 +1,261 @@
+/*
+* @Author: Administrator
+* @Date:   2019-01-02 22:52:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-01-03 13:22:32
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Microsoft Yahei','微软雅黑',Arial,'Hiragino Sans GB','宋体';
+	color: #555;
+	background-color: #f1f1f1;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color: #019875;
+/* 	/* display:none; */
+	position:fixed;
+	top:0px;left:0;
+	z-index:99999999;
+	/* height:1000px; */
+	width:100%;
+	
+}
+.top-top{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top-top1{
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+.op{
+	background-image: url('../images/SAN.png');
+	position: absolute;
+	/* top: 5px; */
+	left: 10px;
+}
+.top-top1 .lo{
+	margin-left: 55px;
+}
+.top-top1 li{
+	float: left;
+	margin-left: 10px;
+	line-height: 40px;
+}
+.top-top1 li a{
+	color: #cdddeb;
+}
+.top-top1 li a:hover{
+	color: #ffffff;
+}
+.introduce{
+	width: 100%;
+	height: 450px;
+	background-color: #019875;
+	position: relative;
+}
+.introduce-top{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+.introduce-top .tu{
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 150px;
+	height: 150px;
+	
+}
+.introduce-top .tu img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.introduce-top .tu img:hover{
+			width: 100%;
+			height: auto;
+			animation:rotate 1s linear infinite ;
+		}
+		@keyframes rotate{
+			from{
+				transform: rotate(0deg);
+			}
+			to{
+				transform: rotate(360deg);
+			}
+		}
+.introduce-zhong{
+	margin: 0 auto;
+	margin-top: -220px;
+/* 	position: absolute;
+	top: 240px; */
+}
+.introduce-zhong p{
+	text-align: center;
+	color: #cdddeb;
+	font-size: 24px;
+	line-height: 40px;
+}
+.shenghuo{
+	width: 980px;
+	height: 45px;
+	line-height: 45px;
+	color: #019875;
+	margin: 10px auto;
+	border-bottom: 1px dashed #019875;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 1s;
+}
+.shenghuo:hover{
+	width: 100%;
+}
+.ai{
+	width: 980px;
+	margin: 0 auto;
+	height: 320px;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: table;
+	margin: 20px auto;
+	min-height: 350px;
+	position: relative;
+}
+.swiper-container {
+   width: 500px;
+	margin: 0 auto;
+	height: 320px;
+}  
+.jisu{
+	width: 980px;
+	height: 45px;
+	line-height: 45px;
+	color: #019875;
+	margin: 10px auto;
+	border-bottom: 1px dashed #019875;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 1s;
+}
+.jisu:hover{
+	width: 100%;
+}
+.aijisu{
+	width: 980px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top:20px;
+	background-color: #fff;
+}
+.aijisu p{
+	color: #019875;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.zuo{
+	width: 980px;
+	height: 45px;
+	line-height: 45px;
+	color: #019875;
+	margin: 10px auto;
+	border-bottom: 1px dashed #019875;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 1s;
+}
+.zuo:hover{
+	width: 100%;
+}
+.zuopin{
+	width: 980px;
+	height: 400px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+.zuopin .img{
+	width: 220px;
+	height: 357px;
+	background-color: #f1f1f1;
+	float: left;
+	margin-left:75px;
+	margin-top: 18px;
+	padding-top: 7px;
+	padding-left: 10px;
+	border: 1px solid #f1f1f1;
+}
+.zuopin .img:hover{
+	background-color: #019875;
+	border-bottom: 1px dashed #019875;
+}
+.zuopin img{
+	width: 210px;
+	height: 350px;
+	
+}
+.ding{
+	position: fixed;
+	bottom: 100px;
+	right: 30px; 
+	width: 50px;
+	height: 50px;
+	background-color: #019875;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.ding a{
+	color: #fff;
+}
+.lianxi{
+	width: 980px;
+	height: 45px;
+	line-height: 45px;
+	color: #019875;
+	margin: 10px auto;
+	border-bottom: 1px dashed #019875;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 1s;
+}
+.lianxi:hover{
+	width: 100%;
+}
+.xi{
+	width: 980px;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.xi{
+	color: #019875;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 8px;
+}
+.xi p{
+	padding-top: 10px;
+}
+.xi p img{
+	width: 120px;
+	height: 120px;
+}
+.kb{
+	height: 30px;
+}
